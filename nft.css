@@ -1,0 +1,175 @@
+
+@font-face {
+    font-family: "Police";
+    src: url("Outfit-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Normal";
+    src: url("Outfit-ExtraLight.ttf");
+}
+
+
+body {
+width: 1440px;
+height: 900px;
+background-color: hsl(217, 54%, 11%);
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.carte {
+
+
+    position: relative;
+    width: 300px;
+    margin: 22px 22px 0px 25px;
+    border-radius: 8px 8px 8px 8px;
+    
+   
+}
+
+#trans {
+
+    opacity: 0;
+    
+    position: absolute;
+    width: 50px;
+    margin-left: 25px;
+    margin-top: -305px;
+    border-radius: 8px 8px 8px 8px;
+    padding: 125px 125px 125px 125px;
+}
+
+
+
+#trans:hover {
+    opacity: 1;
+    background-color: rgb(0,255,247,0.5);
+}
+
+
+#bloc-page {
+
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    margin-top: 10%;
+    border-radius: 14px 14px 14px 14px;
+    
+} 
+
+h1 {
+
+    font-size: 22px;
+    font-family: 'Police';
+    color: white;
+    margin : 18px 0px 0px 25px;
+    
+
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+p {
+    font-size: 18px;
+    margin : 14px 0px 0px 25px;
+    font-family: 'Normal';
+    color: hsl(215, 51%, 70%);
+    
+}
+
+article.image {
+
+    width: 30px;
+}
+#ETH {
+    
+    
+    display: flex;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    width: 85%;
+    margin: 10px 0px 0px 25px;
+    padding-bottom: 15px;
+}
+
+.Icone {
+    
+    width: 11px;
+    height: 15px;
+    margin : 10px 0px 0px 0px;
+    padding: 3px 3px 3px 3px;
+
+}
+#ETH p {
+    
+    margin : 10px 0px 0px 5px;
+    color: hsl(178, 100%, 50%);
+    font-family: 'Police';
+    font-size: 15px;
+    width: 130px;
+}
+
+#ETH div {
+   
+    font-family: 'Normal';
+    color: hsl(215, 51%, 70%);
+    margin : 10px 0px 0px 5px;
+    font-size: 16px;
+    width: 90px;
+    font-size: 15px;
+}
+.Horloge {
+
+    width: 17px;
+    height: 17px;
+    margin : 8px 0px 2px 75px;
+    padding: 3px 3px 3px 3px;
+    
+}
+
+#Creation {
+    margin : 10px 0px 10px 25px;
+    display: flex;
+    
+}
+
+#Creation img {
+
+    margin-top: 5px;
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+     
+
+}
+
+#Creation p {
+font-size: 15px;
+margin-left: 15px;
+}
+
+
+mark {
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+}
+
+mark:hover{
+
+    color: hsl(178, 100%, 50%);
+
+}
+.attribution {
+
+    color: white;
+    font-family: 'Normal';
+    padding-bottom: 10px;
+
+}
+.attribution a:hover {
+    color: hsl(178, 100%, 50%);
+}
